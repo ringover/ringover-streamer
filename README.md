@@ -96,6 +96,5 @@ This project is licensed under the BSD License. See the LICENSE file for details
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
 ## Author
----------
 Made with Love by Ringover for his customers.
 If you do great things with that, feel free to contact us. We have a lot of positions opened.
