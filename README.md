@@ -1,22 +1,18 @@
 # Ringover Streamer
 
 ## Description
---------------
 This project provides a complete implementation of a websocket streamer for Ringover.
 It includes a lot of event you can use to interact with the server like a voicebot.
 
 ## Features
------------
 - A websocket streaming server to revceive realtime RTP from Ringover media servers.
 - Respond directly by sending events and transform the streamer to a real voicebot
 
 ## Prerequisites
-----------------
 - Python 3.8+
 - pip (https://pip.pypa.io/en/stable/)
 
 ## Installation
----------------
 1. Clone the repository:
 ```
 git clone <repository-url>
@@ -33,7 +29,6 @@ pip install -r requirements.txt
 ```
 
 ## Running the Application
---------------------------
 Start the application using Uvicorn:
 
 ```
@@ -45,7 +40,6 @@ python app.py
 ```
 
 ## Available Responses
-----------------------
 
 ### Play
 Websocket server may return JSON object containing audio url to be played by the user. To use this feature, response must follow the format:
@@ -96,11 +90,9 @@ Finally, to transfer a call to an agent, you can put his number into the respons
 ```
 
 ## License
-----------
 This project is licensed under the BSD License. See the LICENSE file for details.
 
 ## Contributing
-------------
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
 ## Author
